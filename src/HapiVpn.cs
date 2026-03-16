@@ -7,6 +7,7 @@ namespace HapiVpnApi
     {
         private readonly HttpClient httpClient;
         private readonly string apiUrl = "https://demo.hapivpn.com/api";
+        
         public HapiVpn()
         {
             httpClient = new HttpClient();
